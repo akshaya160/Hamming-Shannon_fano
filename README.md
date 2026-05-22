@@ -7,6 +7,7 @@ Calculate the average code word length, entropy, variance, redundancy, and effic
 # Tools Required:
 colab matplotlib
 # Program:
+```
 import numpy as np
 import math 
 L  = 0
@@ -45,7 +46,6 @@ print(f"Entropy is : {hs}")
 print(f"Efficiency is : {eff}")
 print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
-
  
 ```
 # Calculation:
@@ -59,8 +59,6 @@ print(f"Variance is : {var}")
 
 ``` 
 # Results:
-```
+
 For the given discrete memoryless source with probabilities {0.125,0.0625,0.25,0.0625,0.125,0.125,0.25}, both Huffman and Shannon–Fano coding were applied. The simulation was carried out in Python (Google Colab). Since the source probabilities are exact powers of two, the codeword lengths match the ideal values, giving zero redundancy and 100% coding efficiency. Both Huffman and Shannon–Fano yield identical results.
-```
-Write the conclusion
-```
+
