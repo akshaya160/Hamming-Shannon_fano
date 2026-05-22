@@ -24,7 +24,7 @@ for j in range (n):
 # Avg length of the code word
 for k in range (n):
     Avg1 = p[k] * lk[k]
-    L = L + Avg1
+    L = L + Avg13ed
 # Entropy
 for k in range (n):
     e = p[k] * math.log(1 / p[k], 2)
@@ -50,12 +50,12 @@ print(f"Variance is : {var}")
 ```
 # Calculation:
 <img width="892" height="1376" alt="dc 111" src="https://github.com/user-attachments/assets/8845266e-9480-4d26-b1e1-f69a968866b8" />
+<img width="936" height="1514" alt="dc 222" src="https://github.com/user-attachments/assets/e16e208a-b8bc-4f4f-8cc4-fbf8d6dd52ca" />
+<img width="907" height="1432" alt="dc 333" src="https://github.com/user-attachments/assets/f1446aa3-3fc1-4a5b-9e3f-7f6994863296" />
 
 # Output
-```
-<img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/d7f54864-f553-4a84-8d0f-4964806d9ed6" />
+<img width="591" height="445" alt="image" src="https://github.com/user-attachments/assets/373e7f0e-6c9b-487b-b65b-21f20bc40517" />
 
-``` 
 # Results:
 
 For the given discrete memoryless source with probabilities {0.125,0.0625,0.25,0.0625,0.125,0.125,0.25}, both Huffman and Shannon–Fano coding were applied. The simulation was carried out in Python (Google Colab). Since the source probabilities are exact powers of two, the codeword lengths match the ideal values, giving zero redundancy and 100% coding efficiency. Both Huffman and Shannon–Fano yield identical results.
