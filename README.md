@@ -50,7 +50,7 @@ print(f"Variance is : {var}")
 ```
 # Calculation:
 ```
-<img width="800" height="1280" alt="image" src="https://github.com/user-attachments/assets/8938be71-66cd-4d0f-ab1e-245ab11b0950" />
+<img width="800" height="1280" alt="image" src="https://github.com/user-attachments/assets/df25992b-323c-4ce3-807e-7c52e1191e4f" />
 
 ```
 # Output
